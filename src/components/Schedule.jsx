@@ -3,7 +3,7 @@ import '../styles/Schedule.css'
 
 const Schedule = () => {
   const day1Events = [
-    { time: '9:30 AM', event: 'Registration & Deck Submission', note: 'On or before' },
+    { time: '8:30 AM - 9:30 AM', event: 'Registration & Deck Submission' },
     { time: '10:00 AM', event: 'Inauguration' },
     { time: '11:00 AM', event: 'Hall Allotment' },
     { time: '12:00 PM', event: 'Hackathon Start', highlight: true },

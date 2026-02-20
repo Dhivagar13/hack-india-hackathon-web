@@ -52,7 +52,7 @@ const Rules = () => {
                 <h3 className="rule-title">Submission Requirements</h3>
               </div>
               <ul className="rule-list">
-                <li className="rule-item">Submit project deck before 9:30 AM on Day 1</li>
+                <li className="rule-item">Submit project deck between 8:30 AM - 9:30 AM on Day 1</li>
                 <li className="rule-item">Working demo is mandatory</li>
                 <li className="rule-item">Source code must be on GitHub/GitLab</li>
                 <li className="rule-item">Include README with setup instructions</li>
