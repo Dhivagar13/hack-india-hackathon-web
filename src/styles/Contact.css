@@ -69,6 +69,18 @@
   font-size: 2rem;
 }
 
+.contact-card:nth-child(3n) .contact-icon {
+  filter: drop-shadow(0 0 10px var(--accent-green));
+}
+
+.contact-card:nth-child(3n+1) .contact-icon {
+  filter: drop-shadow(0 0 10px var(--accent-rose));
+}
+
+.contact-card:nth-child(3n+2) .contact-icon {
+  filter: drop-shadow(0 0 10px var(--accent-purple));
+}
+
 .contact-title {
   font-size: 1.3rem;
   color: var(--text-primary);
@@ -120,7 +132,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background: var(--gradient-accent);
+  background: linear-gradient(90deg, var(--accent-green), var(--accent-blue), var(--accent-purple), var(--accent-rose));
   border-radius: 2px;
 }
 
@@ -168,7 +180,23 @@
   font-size: 2.5rem;
   display: block;
   margin-bottom: 15px;
-  filter: drop-shadow(0 0 10px rgba(79, 70, 229, 0.5));
+  filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.5));
+}
+
+.coordinator-card:nth-child(4n) .coordinator-icon {
+  filter: drop-shadow(0 0 10px var(--accent-green));
+}
+
+.coordinator-card:nth-child(4n+1) .coordinator-icon {
+  filter: drop-shadow(0 0 10px var(--accent-blue));
+}
+
+.coordinator-card:nth-child(4n+2) .coordinator-icon {
+  filter: drop-shadow(0 0 10px var(--accent-purple));
+}
+
+.coordinator-card:nth-child(4n+3) .coordinator-icon {
+  filter: drop-shadow(0 0 10px var(--accent-rose));
 }
 
 .coordinator-name {

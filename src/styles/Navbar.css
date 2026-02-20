@@ -4,11 +4,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(10, 14, 39, 0.8);
-  backdrop-filter: blur(10px);
+  background: rgba(13, 2, 33, 0.8);
+  backdrop-filter: blur(30px);
   z-index: 1000;
   transition: all 0.3s ease;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
+  box-shadow: 0 5px 40px rgba(181, 55, 242, 0.4);
 }
 
 .navbar::after {
@@ -17,9 +18,12 @@
   bottom: 0;
   left: 0;
   width: 0;
-  height: 2px;
-  background: var(--gradient-accent);
+  height: 4px;
+  background: var(--gradient-rainbow);
+  background-size: 200% 200%;
   transition: width 0.3s ease;
+  animation: gradientShift 3s ease infinite;
+  box-shadow: 0 0 20px rgba(181, 55, 242, 0.8);
 }
 
 .navbar.scrolled::after {
@@ -60,10 +64,13 @@
 }
 
 .logo-text {
-  background: var(--gradient-primary);
+  background: var(--gradient-rainbow);
+  background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  animation: gradientShift 3s ease infinite;
+  filter: drop-shadow(0 0 10px rgba(181, 55, 242, 0.8));
 }
 
 .navbar-logo:hover {

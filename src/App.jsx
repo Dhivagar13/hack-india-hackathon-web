@@ -7,6 +7,7 @@ import Prizes from './components/Prizes'
 import Rules from './components/Rules'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Background3D from './components/Background3D'
 import { initScrollReveal } from './utils/scrollReveal'
 
 function App() {
@@ -17,6 +18,19 @@ function App() {
 
   return (
     <div className="app">
+      <Background3D />
+      <div className="grid-background"></div>
+      <div className="floating-cubes">
+        <div className="cube"></div>
+        <div className="cube"></div>
+        <div className="cube"></div>
+        <div className="cube"></div>
+      </div>
+      <div className="wave-container">
+        <div className="wave"></div>
+        <div className="wave"></div>
+        <div className="wave"></div>
+      </div>
       <Navbar />
       <Hero />
       <div className="reveal"><Schedule /></div>

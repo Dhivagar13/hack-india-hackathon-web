@@ -65,6 +65,26 @@
   font-size: 2rem;
 }
 
+.rule-category:nth-child(6n) .rule-icon {
+  filter: drop-shadow(0 0 10px var(--accent-green));
+}
+
+.rule-category:nth-child(6n+1) .rule-icon {
+  filter: drop-shadow(0 0 10px var(--accent-blue));
+}
+
+.rule-category:nth-child(6n+2) .rule-icon {
+  filter: drop-shadow(0 0 10px var(--accent-purple));
+}
+
+.rule-category:nth-child(6n+3) .rule-icon {
+  filter: drop-shadow(0 0 10px var(--accent-rose));
+}
+
+.rule-category:nth-child(6n+4) .rule-icon {
+  filter: drop-shadow(0 0 10px var(--accent-cyan));
+}
+
 .rule-title {
   font-size: 1.5rem;
   color: var(--text-primary);
